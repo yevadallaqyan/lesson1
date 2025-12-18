@@ -28,7 +28,7 @@ def play_game():
             continue
 
         if letter in guessed_letters or letter in wrong_letters:
-            print(“You have already tried this letter")
+            print("You have already tried this letter")
             continue
 
         if letter in word:
